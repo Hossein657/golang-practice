@@ -22,8 +22,8 @@ func main() {
 			phone: 9099081202,
 		},
 	}
-	alexPointer := &alex
-	alexPointer.updateName("mamad")
+
+	alex.updateName("mamad")
 	alex.print()
 }
 
