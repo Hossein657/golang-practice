@@ -6,5 +6,8 @@ type person struct {
 }
 
 func main() {
-
+	alex := person{
+		firstName: "John",
+		lastName:  "doe",
+	}
 }
